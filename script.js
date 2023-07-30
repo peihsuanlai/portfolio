@@ -46,20 +46,20 @@ close.addEventListener("click", () => {
 let projectList = [
   {
     img: "./images/p1.jpg",
-    title: "AI Tool",
-    des: "網頁切版實作，一個提供 AI 工具服務的網站",
-    link: "https://peihsuanlai.github.io/ai-tool/",
-  },
-  {
-    img: "./images/p2.jpg",
     title: "彈跳球",
     des: "經典遊戲實作，透過滑鼠控制板塊位置，協助球撞磚塊",
     link: "https://peihsuanlai.github.io/bouncing-ball/",
   },
   {
+    img: "./images/p2.jpg",
+    title: "眼鏡形象網站",
+    des: "網頁切版實作，一個販售各式眼鏡的形象網站",
+    link: "https://peihsuanlai.github.io/glasses/",
+  },
+  {
     img: "./images/p3.jpg",
     title: "GPA Calculator",
-    des: "根據輸入的學分與成績計算 GPA，且可動態增減科目",
+    des: "根據輸入的學分與成績計算 GPA，可增減科目動態計算",
     link: "https://peihsuanlai.github.io/gpa-calculator/",
   },
   {
