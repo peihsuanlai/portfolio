@@ -45,22 +45,22 @@ close.addEventListener("click", () => {
 //dymamic projects
 let projectList = [
   {
-    img: "./images/p1.jpg",
-    title: "彈跳球",
-    des: "經典遊戲實作，透過滑鼠控制板塊位置，協助球撞磚塊",
-    link: "https://peihsuanlai.github.io/bouncing-ball/",
+    img: "./images/p1.png",
+    title: "活動售票網",
+    des: "網頁切版實作，具視差滾動與輪播效果",
+    link: "https://peihsuanlai.github.io/7tao/",
   },
   {
     img: "./images/p2.jpg",
-    title: "眼鏡形象網站",
-    des: "網頁切版實作，一個販售各式眼鏡的形象網站",
-    link: "https://peihsuanlai.github.io/glasses/",
-  },
-  {
-    img: "./images/p3.jpg",
     title: "GPA Calculator",
     des: "根據輸入的學分與成績計算 GPA，可增減科目動態計算",
     link: "https://peihsuanlai.github.io/gpa-calculator/",
+  },
+  {
+    img: "./images/p3.jpg",
+    title: "眼鏡電商形象網站",
+    des: "網頁切版實作，販售各式眼鏡的形象網站",
+    link: "https://peihsuanlai.github.io/glasses/",
   },
   {
     img: "./images/p4.jpg",
