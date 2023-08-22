@@ -15,6 +15,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -77,7 +78,7 @@
       </div>
     </section>
 
-    <section id="About">
+    <section id="About" data-aos="fade-up">
       <div class="container about-container">
         <div class="about-left">
           <div class="about-img-bg"></div>
@@ -97,7 +98,7 @@
       </div>
     </section>
 
-    <section id="Personality">
+    <section id="Personality" data-aos="fade-up">
       <div class="container personality-container">
         <h2>My Personality</h2>
         <div class="swiper">
@@ -123,7 +124,7 @@
       </div>
     </section>
 
-    <section id="Projects">
+    <section id="Projects" data-aos="fade-up">
       <div class="container projects-container">
         <h2>
           <a href="https://github.com/peihsuanlai" title="Go to Github"
@@ -134,7 +135,7 @@
       </div>
     </section>
 
-    <section id="Contact">
+    <section id="Contact" data-aos="fade-up">
       <div class="container contact-container">
         <h2>Contact Me</h2>
         <form action="#">
@@ -167,5 +168,9 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+     </script>
   </body>
 </html>

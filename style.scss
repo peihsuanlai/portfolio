@@ -8,7 +8,8 @@
   outline: none;
   scroll-behavior: smooth;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, "Microsoft JhengHei","PingFang TC", sans-serif;
+    "Lucida Sans Unicode", Geneva, Verdana, "Microsoft JhengHei", "PingFang TC",
+    sans-serif;
 }
 
 :root {
@@ -30,12 +31,13 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  object-fit: cover;
 }
 
 .btn {
   display: inline-block;
   width: fit-content;
-  padding: 1.2rem 1.6rem;
+  padding: 0.8rem;
   background-color: var(--color-primary);
   color: var(--color-white);
   border-radius: 0.4rem;
@@ -142,7 +144,7 @@ nav {
       p {
         font-size: 18px;
         line-height: 140%;
-        margin-top:1rem;
+        margin-top: 1rem;
       }
       .btn {
         margin-top: 2rem;
@@ -175,7 +177,7 @@ nav {
           display: flex;
           flex-direction: column;
           align-items: center;
-          justify-content:center;
+          justify-content: center;
           color: var(--color-primary);
           transform: rotate(calc(360deg / 4 * var(--r)));
           transform-origin: 384px;
@@ -190,9 +192,9 @@ nav {
             margin-left: 25px;
           }
           &:nth-child(3) i {
-              margin-left: 20px;
-            }
-           
+            margin-left: 20px;
+          }
+
           &:nth-child(4) i {
             margin-left: 24px;
           }
@@ -285,9 +287,7 @@ nav {
         transform: rotate(8deg);
         border-radius: 1rem;
         transition: var(--transition);
-
         img {
-          object-fit: cover;
           border: none;
         }
       }
@@ -321,14 +321,14 @@ nav {
 
     .personality-cards {
       .card {
-        display:flex;
+        display: flex;
         flex-direction: column;
         padding: 3rem 2rem 3rem;
         border-radius: 0.4rem;
         box-shadow: 0 0.5rem 0.9rem var(--box-shadow);
         border-top: 0.5rem solid #dde3a4;
         transition: var(--transition);
-        height:auto;
+        height: auto;
         &:hover {
           box-shadow: 0 0.2rem 0.4rem var(--box-shadow);
           border-color: var(--color-primary);
@@ -344,7 +344,6 @@ nav {
         }
         p {
           margin-bottom: 1rem;
-          
         }
       }
     }
@@ -362,10 +361,10 @@ nav {
 
 #Projects {
   padding-top: 48px;
-  h2 a{
-    color:var(--color-primary);
-    &:hover{
-      color:#dde3a4;
+  h2 a {
+    color: var(--color-primary);
+    &:hover {
+      color: #dde3a4;
       transition: var(--transition);
     }
   }
@@ -391,7 +390,6 @@ nav {
       }
       img {
         width: 100%;
-        object-fit: center;
         transition: var(--transition);
       }
       .project-shadow {
@@ -733,7 +731,7 @@ footer {
     }
   }
 
-  #Projects  .projects {
+  #Projects .projects {
     grid-template-columns: 1fr;
     gap: 25px;
   }
@@ -742,6 +740,34 @@ footer {
     width: 90%;
     form .input-group {
       grid-template-columns: 1fr;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #About {
+    .about-container {
+      .about-left {
+        .about-img-bg,
+        .about-img {
+          width: 20rem;
+          height: 20rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  #About {
+    .about-container {
+      .about-left {
+        .about-img-bg,
+        .about-img {
+          width: 18rem;
+          height: 18rem;
+        }
+      }
     }
   }
 }
