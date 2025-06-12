@@ -26,27 +26,23 @@
           <li><a href="#Home" class="active">Home</a></li>
           <li><a href="#About">About</a></li>
           <li><a href="#Personality">Personality</a></li>
+          <li><a href="#Skills">Skills</a></li>
           <li><a href="#Projects">Projects</a></li>
-          <li><a href="#Contact">Contact</a></li>
         </ul>
         <button class="mobile-menu open"><i class="fa fa-bars"></i></button>
         <button class="mobile-menu close"><i class="fa fa-close"></i></button>
       </div>
     </nav>
-
-    <section id="Home">
+    <section id="Home" class="w1920">
       <div class="container header-container">
         <div class="header-left">
           <h3>Hello I'm</h3>
-          <h1>PeiHsuan Lai</h1>
+          <h1>PeiHsuan</h1>
           <p>
             前端永遠的學習者與開發者<br />
-            我享受撰寫程式碼與邏輯思考的過程<br />
-            對網頁開發的各種挑戰與豐沛成就感深感著迷
+            我享受畫面製作與程式開發邏輯思考的過程<br />
+            對網頁開發的各種挑戰與豐沛成就感深深著迷
           </p>
-          <a href="./images/履歷-前端工程師賴佩萱.pdf" class="btn" download
-            ><i class="fa fa-download">下載履歷</i></a
-          >
         </div>
         <div class="header-right">
           <div class="profession-content">
@@ -57,7 +53,7 @@
               </div>
               <div class="profession" style="--r: 2">
                 <i class="fa-solid fa-pencil"></i>
-                <h3>Content Writer</h3>
+                <h3>Continuous Learner</h3>
               </div>
               <div class="profession" style="--r: 3">
                 <i class="fa-solid fa-people-group"></i>
@@ -77,49 +73,110 @@
         </div>
       </div>
     </section>
-
     <section id="About" data-aos="fade-up">
       <div class="container about-container">
         <div class="about-left">
           <div class="about-img-bg"></div>
-          <div class="about-img">
-            <img src="./images/about.jpg" alt="woman" />
-          </div>
+          <div
+            class="about-img"
+            style="background-image: url('./images/about.png')"
+          ></div>
         </div>
         <div class="about-right">
           <h2>About Me</h2>
           <h3>具備人文思維與前端技術的跨領域人才</h3>
           <p>
-            英文系畢業，過去從事內容、行銷相關工作，因緣際會踏入前端學習之旅，透過線上資源與自我研讀，我已掌握
-            HTML、CSS、JS、AJAX 等前端開發必備技能，並會運用
-            Bootstrap、React，希望能結合行銷思維與前端技術，創造出一個個符合使用者體驗且賞心悅目的網頁。
+            英文系畢業，過去從事內容、行銷相關工作，因緣際會踏入前端領域，具有
+            Vue.js、jQuery 與 Bootstrap 等實務經驗，參與超過 30 個網站製作專案，擅長 UI
+            切版、功能開發與後端串接，亦具網站架設與無障礙規範製作經驗。
           </p>
         </div>
       </div>
     </section>
-
-    <section id="Personality" data-aos="fade-up">
+    <section id="Personality" data-aos="fade-up" class="w1920">
       <div class="container personality-container">
         <h2>My Personality</h2>
         <div class="swiper">
           <div class="personality-cards swiper-wrapper">
             <div class="card swiper-slide">
               <i class="fa-solid fa-calendar-week"></i>
-              <h3>個性謹慎、注重細節</h3>
-              <p>心思細膩，總能看見微小細節，不放過任何 bug</p>
+              <h3>細心沉穩，重視使用者體驗與畫面品質</h3>
+              <p>
+                擅長在專案中發現並修正 UI/UX
+                的微小問題，確保畫面與設計稿一致，並注重跨裝置、跨瀏覽器的表現一致性。
+              </p>
             </div>
             <div class="card swiper-slide">
               <i class="fa-solid fa-chalkboard-user"></i>
-              <h3>研究創新、適應力強</h3>
-              <p>快速適應環境，持續學習新技術、語法與套件的使用</p>
+              <h3>主動積極，自主學習與技術精進</h3>
+              <p>
+                面對新技術與問題時勇於嘗試並深入研究，曾自發性導入新工具/開發流程優化，也樂於與同事交流知識。
+              </p>
             </div>
             <div class="card swiper-slide">
               <i class="fa-solid fa-users-rays"></i>
-              <h3>主動積極、熱於分享</h3>
-              <p>群居性格，與人為善，善於團隊溝通與協作，喜歡和人交流新知</p>
+              <h3>具備良好的團隊協作與溝通能力</h3>
+              <p>
+                能與設計師密切討論動態效果與畫面實現細節，與後端工程師協同整合串接，熟悉使用
+                Git 進行協作開發。
+              </p>
             </div>
           </div>
           <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <section id="Skills" data-aos="fade-up" class="w1920">
+      <div class="container skill-container">
+        <h2>My Skills</h2>
+        <div class="skill-list">
+          <div class="item">
+            <div class="left">
+              <h3>
+                <i class="fa-solid fa-circle-check"></i><span>網頁切版</span>
+              </h3>
+            </div>
+            <div class="right">
+                -熟悉 HTML5、CSS3、RWD、SCSS 預處理器<br />
+                -擅用 Bootstrap4、Bootstrap5 框架進行排版<br />
+                -動態研究製作、設計稿還原度高、注重跨瀏覽器相容性
+            </div>
+          </div>
+          <div class="item">
+            <div class="left">
+              <h3>
+                <i class="fa-solid fa-circle-check"></i><span>前端開發</span>
+              </h3>
+            </div>
+            <div class="right">
+                -JavaScript (ES6+)、jQuery、Vue.js<br />
+                -畫面動態研究製作<br />
+                -DOM操作、事件處理、後端 API 串接
+            </div>
+          </div>
+          <div class="item">
+            <div class="left">
+              <h3>
+                <i class="fa-solid fa-circle-check"></i><span>後端基礎</span>
+              </h3>
+            </div>
+            <div class="right">
+                -MySQL 資料庫語法<br />
+                -php 資料串接
+            </div>
+          </div>
+          <div class="item">
+            <div class="left">
+              <h3>
+                <i class="fa-solid fa-circle-check"></i><span>工具與平台</span>
+              </h3>
+            </div>
+            <div class="right">
+                -Git 版本控管與團隊協作<br />
+                -GitHub Pages 靜態網頁佈署<br />
+                -cPanel 與 Plesk 主機操作、DNS 設定
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -134,35 +191,12 @@
         <div class="projects"></div>
       </div>
     </section>
-
-    <section id="Contact" data-aos="fade-up">
-      <div class="container contact-container">
-        <h2>Contact Me</h2>
-        <form action="#">
-          <div class="input-group">
-            <input type="text" placeholder="Your First Name" required />
-            <input type="text" placeholder="Your Last Name" required />
-          </div>
-          <div class="input-group">
-            <input type="email" placeholder="Your Email Address" required />
-            <input type="text" placeholder="Your Phone Number" required />
-          </div>
-          <textarea
-            name="message"
-            id="message"
-            cols="30"
-            rows="10"
-            placeholder="Your Message"
-            required
-          ></textarea>
-          <button type="submit" class="btn">Send</button>
-        </form>
-      </div>
-    </section>
-
     <footer>
       <div class="container footer-container">
-        <p>PeiHsaun Lai 2023</p>
+        <p>PeiHsaun Lai 2025</p>
+        <a href="mailto:june625678@gmail.com"
+          ><i class="fa-solid fa-envelope"></i> june625678@gmail.com</a
+        >
         <a href="#Home" class="btn"><i class="fa fa-arrow-up"></i></a>
       </div>
     </footer>
@@ -171,6 +205,6 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
-     </script>
+    </script>
   </body>
 </html>

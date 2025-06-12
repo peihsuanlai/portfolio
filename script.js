@@ -5,7 +5,7 @@ window.addEventListener("scroll", () => {
 
   sections.forEach((section) => {
     let scroll = window.scrollY;
-    let offset = section.offsetTop - 150;
+    let offset = section.offsetTop - 140;
     let height = section.offsetHeight;
     let id = section.getAttribute("id");
 
@@ -45,22 +45,22 @@ close.addEventListener("click", () => {
 //dymamic projects
 let projectList = [
   {
+    img: "./images/p2.png",
+    title: "Pure Aura 電商購物平台",
+    des: "Vite 整合 Vue 專案，主題發想、架構規劃、畫面構思與前後台切版串接實作",
+    link: "https://peihsuanlai.github.io/pure-aura/#/",
+  },
+  {
+    img: "./images/p3.png",
+    title: "美食糾察隊",
+    des: "網站架構規劃、線稿繪製、Figma 設計稿製作與切版製作",
+    link: "https://foodies-team.github.io/foodies/index.html",
+  },
+  {
     img: "./images/p1.png",
-    title: "活動售票網",
-    des: "網頁切版實作，具視差滾動與輪播效果",
+    title: "7tao 活動售票網",
+    des: "RWD 網站切版實作，具視差滾動與輪播效果",
     link: "https://peihsuanlai.github.io/7tao/",
-  },
-  {
-    img: "./images/p2.jpg",
-    title: "GPA Calculator",
-    des: "根據輸入的學分與成績計算 GPA，可增減科目動態計算",
-    link: "https://peihsuanlai.github.io/gpa-calculator/",
-  },
-  {
-    img: "./images/p3.jpg",
-    title: "眼鏡電商形象網站",
-    des: "網頁切版實作，販售各式眼鏡的形象網站",
-    link: "https://peihsuanlai.github.io/glasses/",
   },
   {
     img: "./images/p4.jpg",
@@ -71,7 +71,7 @@ let projectList = [
   {
     img: "./images/p5.jpg",
     title: "圖片搜尋網",
-    des: "串接 Pexels API 獲取免費圖庫，可搜尋下載高畫質圖片",
+    des: "串接 Pexels API 獲取圖庫資源，可搜尋下載高畫質圖片",
     link: "https://peihsuanlai.github.io/images-for-inspiration/",
   },
   {
